@@ -18,4 +18,6 @@ function render_page(data) {
 	$("#channel1").text(data["field2"]+" V");
 	$("#channel2").text(data["field3"]+" V");
 	$("#channel3").text(data["field4"]+" V");
+
+	setTimeout(get_adc_readings, 3000);
 }
