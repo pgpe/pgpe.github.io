@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>ADC Readings</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+		<style>
+			table, th, td {
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1 align=center>ADC readings</h1>
+		<p align=center> 
+			The latest ADC reading on thingspeak.com is displayed. 
+		</p>
+		<table align=center>
+			<th>Channel</th>
+			<th>Reading</th>
+			<tr>
+				<td>0</td>
+				<td id="channel0"></td>
+			</tr>
+				<td>1</td>
+				<td id="channel1"></td>
+			<tr>
+				<td>2</td>
+				<td id="channel2"></td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td id="channel3"></td>
+			</tr>
+		</table>
+	</body>
+</html>
