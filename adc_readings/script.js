@@ -3,7 +3,7 @@ $(document).ready(function() {
 });
 
 function get_adc_readings() {
-	var ts_channel = "303016";
+	var ts_channel = "364994";
 	var url = "https://api.thingspeak.com/channels/"+ts_channel+"/feeds/last.json?callback=";
 	$.ajax({
 		url: url+"render_page",
